@@ -4,7 +4,7 @@ from typing import Iterable, Optional, Tuple
 
 
 class ExceptionHandler:
-    def __init__(self, return_message, log_file) -> None:
+    def __init__(self, return_message: str, log_file: str) -> None:
         self.return_message = return_message
         self.log_file = log_file
 
